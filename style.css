@@ -1,0 +1,225 @@
+body
+{
+    margin: 0;
+    background-color: #96C9DC;
+}
+
+nav
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #eee;
+    box-shadow:0 -1px 10px grey;
+}
+
+.heading
+{
+    margin-right: 15px;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 10px;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.heading:hover
+{
+    background-color: gray;
+    color: white;
+}
+
+#intro{
+    margin-top: 100px;
+}
+
+#intro h2{    
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+#intro p{
+    width: 405px;
+    margin: auto;
+    font-size: 30px;
+    margin-bottom: 100px;
+    font-family: 'Nanum Myeongjo', serif;
+    border-bottom: 1px solid black;
+}
+
+#projects
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Nanum Myeongjo', serif;
+    margin-bottom: 80px;
+}
+
+#car_website{
+    display: flex;
+    flex-direction: column;
+}
+
+#toyota{
+    margin: auto;
+}
+
+#survey{
+    margin: auto;
+    margin-top: 0;
+}
+
+#counter_position{
+    margin: auto;
+    margin-top: 0;
+}
+
+#toyota_logo{
+    width: 220px;
+    border-radius: 5px;
+}
+
+#toyota_desc{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#survey_form{
+    display: flex;
+    flex-direction: column;
+}
+
+#survey_form_logo{
+    width: 360px;
+    border-radius: 5px;
+}
+
+#survey_form_desc{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#counter{
+    display: flex;
+    flex-direction: column;
+}
+
+#counter_logo{
+    width: 212px;
+    border-radius: 5px;
+}
+
+#counter_desc{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#sec_projects{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Nanum Myeongjo', serif;
+    margin-bottom: 80px ;
+}
+
+#guitar_chords{
+    display: flex;
+    flex-direction: column;
+}
+
+#guitar{
+    margin: auto;
+}
+
+#guitar_logo{
+    width: 240px;
+    border-radius: 5px;
+}
+
+#guitar_desc{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#product_landing_page{
+    display: flex;
+    flex-direction: column;
+}
+
+#product{
+    margin: auto;
+}
+
+#product_logo{
+    width: 290px;
+    border-radius: 5px;
+}
+
+#product_desc{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 25px;
+    background-color: #248277;
+    position:relative;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+}
+
+footer p{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#footer_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+.footer_logo{
+    width: 50px;
+    margin-left: 130px;
+    align-self: center;
+}
+
+.footer_link h3{
+    width: 80px;
+}
+
+.footer_link{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.footer_link:hover{
+    color: rgb(236, 134, 134);
+}
